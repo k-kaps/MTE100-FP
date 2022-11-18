@@ -6,11 +6,65 @@ Motor to Send Cards to Phase 2: motorB
 In Phase 2:
 Motor to Regulate Scanning of Cards: motorC
 
-In Phase 3: 
+In Phase 3:
 Motor to flip the cards: motorD
 */
-
-bool touchWait(inty waittimeMS)
+int scoreCalculator(int cardvalues[], int arraylength)
+{
+	/*
+	Description: Function to Calculate the Score for the player and dealer
+	Parameters:
+	int cardvalues[]: Array which stores the values of the cards
+	Return:
+	totalscore: the total score for the player/dealer
+	*/
+	int acesarray[5] = {0};
+	int totalscore = 0;
+	for (int loopvar = 0; loopvar < arraylength; loopvar++)
+	{
+		if (cardvalues[loopvar] == 12)
+		{
+			acesarray[loopvar] = 12;
+		}
+		else
+		{
+			totalscore = totalscore + cardvalues[loopvar];
+		}
+	}
+	for (int loopvar = 0; loopvar < 5; loopvar++)
+	{
+		if (acesarray[loopvar] == 12)
+		{
+			if ((totalscore+11) > 21)
+			{
+				totalscore = totalscore + 1;
+			}
+			else
+			{
+				totalscore = totalscore + 11;
+			}
+		}
+	}
+	return totalscore;
+}
+void cardDistribution_P3(int flip)
+{
+	/*
+	Description: Final phase of card distribution (card flipping)
+	Parameters:
+	int flip: 
+	Return: Nonw
+	*/
+	if (flip == 1)
+	{
+		//Code to flip the card
+	}
+	else if (flip == 0)
+	{
+		//Code to let the card slide unflipped
+	}
+}
+bool touchWait(int waittimeMS)
 {
 	/*
 	Description: To make the touch sensor wait for specific times for an input
@@ -39,27 +93,27 @@ int cardScanning()
 	int cardvalue: stores the value of the card
 	*/
 	int cardvalue = 0;
-	if (SensorValue[S1] == int(colorBlack))
+	if (SensorValue[S1] == (int)colorBlack)
 	{
 		cardvalue = 1;
 	}
-	else if (SensorValue[S1] == int(colorBlue))
+	else if (SensorValue[S1] == (int)colorBlue)
 	{
 		cardvalue = 2;
 	}
-	else if (SensorValue[S1] == int(colorGreen))
+	else if (SensorValue[S1] == (int)colorGreen)
 	{
 		cardvalue = 3;
 	}
-	else if (SensorValue[S1] == int(colorYellow))
+	else if (SensorValue[S1] == (int)colorYellow)
 	{
 		cardvalue = 4;
 	}
-	else if (SensorValue[S1] == int(colorRed))
+	else if (SensorValue[S1] == (int)colorRed)
 	{
 		cardvalue = 5;
 	}
-	else if (SensorValue[S1] == int(colorBrown))
+	else if (SensorValue[S1] == (int)colorBrown)
 	{
 		cardvalue = 6;
 	}
@@ -89,4 +143,5 @@ void cardDistribution_P1(int timedelay)
 //void configureAllSensors(){ // MEVAN}
 task main()
 {
+	//CHRIS
 }
