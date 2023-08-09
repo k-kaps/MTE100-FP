@@ -13,6 +13,6 @@ Download the .c file to your machine and upload to the Lego EV3-brick using the 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 # Contact
-If you have any questions or feedback, please contact us at [@Christopher][mailto:crkoochi@uwaterloo.ca] [@Karan][mailto:k34kapoo@uwaterloo.ca] [@Mevan][mailto:mtfsolan@uwaterloo.ca]
+If you have any questions or feedback, please contact us at [@Christopher](mailto:crkoochi@uwaterloo.ca) [@Karan](mailto:k34kapoo@uwaterloo.ca) [@Mevan](mailto:mtfsolan@uwaterloo.ca)
 
 Thank you for checking out our Blackjack Card Playing Robot code!
