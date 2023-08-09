@@ -2,6 +2,9 @@
 
 This codebase includes the software that powers Jack Black, our robot, which is capable of playing the card game Blackjack.
 
+# Demo
+[<img src="https://github.com/k-kaps/MTE100-FP/blob/main/FinalProject-IMG.png" width="50%">](https://github.com/k-kaps/MTE100-FP/blob/main/FinalProject-VID.mp4 "Project Demo")
+
 # Requirements
 Lego EV3 brick
 Robot C for Lego Mindstorms 4.X (Software Application)
