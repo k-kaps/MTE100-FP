@@ -4,7 +4,7 @@ This repository includes the code that powers Jack Black, our robot for the MTE 
 
 ## Images
 
-![Jack Black: Top View](https://github.com/k-kaps/jack-black/blob/main/images/JackBlack-01.jpg?raw=true)
+![Jack Black](/images/JackBlack-01.jpg)
 
 The demo video for Jack Black can be found in the repository by the name of 'JackBlack-Demo.mp4'<br />
 Link to video : https://github.com/k-kaps/jack-black/blob/main/JackBlack-Demo.mp4
