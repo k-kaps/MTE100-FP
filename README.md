@@ -21,7 +21,7 @@ This repository includes the code that powers Jack Black, our robot for the MTE 
 </p>
 
 <p align="center">
-  <img src="/images/JackBlack-04.jpg" height="200" />
+  <img src="/images/JackBlack-04.jpg" height="300" />
 </p>
 <p align="center">
   Card Used for Color Recognition
