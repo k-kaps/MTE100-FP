@@ -4,7 +4,7 @@ This repository includes the code that powers Jack Black, our robot for the MTE 
 
 ## Images
 <p align="center">
-  <img src="/images/JackBlack-02.jpg" height="400" />
+  <img src="/images/JackBlack-02.jpg" height="300" />
 </p>
 
 <p align="center">
@@ -21,10 +21,10 @@ This repository includes the code that powers Jack Black, our robot for the MTE 
 </p>
 
 <p align="center">
-  <img src="/images/JackBlack-04.jpg" height="300" />
+  <img src="/images/JackBlack-04.jpg" height="350" />
 </p>
 <p align="center">
-  Card Used for Color Recognition
+  Example Card Used for Color Recognition
 </p>
 
 The demo video for Jack Black can be found in the repository by the name of 'JackBlack-Demo.mp4'<br />
