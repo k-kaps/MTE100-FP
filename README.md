@@ -6,8 +6,8 @@ This repository includes the code that powers Jack Black, our robot for the MTE 
 
 <p align="center">
   <img src="/images/JackBlack-02.jpg" width="200" />
-  <img src="/images/JackBlack-01.jpg" width="200" />
-  <img src="/images/JackBlack-03.jpg" width="200" />
+  <img src="/images/JackBlack-01.jpg" width="400" />
+  <img src="/images/JackBlack-03.jpg" width="400" />
 </p>
 
 <p align="center">
