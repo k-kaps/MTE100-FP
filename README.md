@@ -27,7 +27,7 @@ The project is based on the Lego EV3, and requires 'Robot C for Lego Mindstorms 
 Additionally it requires motors, and a color sensor in a setup as shown in the pictures above.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
 
 ## Contact
 If you have any questions or feedback, please contact us at [@Christopher](mailto:crkoochi@uwaterloo.ca) [@Karan](mailto:k34kapoo@uwaterloo.ca) [@Mevan](mailto:mtfsolan@uwaterloo.ca)
