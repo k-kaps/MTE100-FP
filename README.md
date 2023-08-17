@@ -24,7 +24,7 @@ Link to video : https://github.com/k-kaps/jack-black/blob/main/JackBlack-Demo.mp
 
 ## Requirements
 The project is based on the Lego EV3, and requires 'Robot C for Lego Mindstorms 4.X' (Software Application) to load the program onto the EV3. 
-Additionally it requires motors, and a color sensor in a setup as shown in the pictures above.
+Additionally it requires motors, a color sensor, and a few LEGO build parts in a setup as shown in the pictures above.
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/k-kaps/jack-black/blob/main/LICENSE) file for details.
