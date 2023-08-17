@@ -5,9 +5,9 @@ This repository includes the code that powers Jack Black, our robot for the MTE 
 ## Images
 
 <p float="left">
-  <img src="/images/JackBlack-01.jpg" width="600" />
-  <img src="/images/JackBlack-02.jpg" width="200" /> 
-  <img src="/images/JackBlack-03.jpg" width="400" />
+  <img src="/images/JackBlack-01.jpg" width="400" />
+  <img src="/images/JackBlack-02.jpg" width="300" /> 
+  <img src="/images/JackBlack-03.jpg" width="200" />
 </p>
 
 The demo video for Jack Black can be found in the repository by the name of 'JackBlack-Demo.mp4'<br />
